@@ -27,7 +27,7 @@ d.addEventListener("DOMContentLoaded", (e) => {
   digitalClock(".reloj", "#btn-iniciar_reloj", "#btn-detener_reloj");
   alarm("assets/alarma.mp3", "#btn-iniciar_alarma", "#btn-detener_alarma");
   countdown("countdown","Oct 28, 2022 00:00:00","Feliz Cumpleaños Christian 🤩!")
-  countdown("countdown2","Aug 10, 2022 00:02:00","Feliz Cumpleaños Julieth 🤩!")
+//   countdown("countdown2","Aug 10, 2022 00:02:00","Feliz Cumpleaños Julieth 🤩!")
   scrollTopButton(".scroll-top-btn");
   responsiveMedia("youtube","(min-width: 1024px)",`            <a href="https://youtu.be/dYB1UlGGmfk" target="_blank" rel="noopener">Ver Video Youtube</a>
   `,`<iframe width="560" height="315" src="https://www.youtube.com/embed/dYB1UlGGmfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`);
